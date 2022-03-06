@@ -12,7 +12,6 @@ const Menu = () => {
           rel="stylesheet"
         ></link>
         <i class="material-icons">add</i>
-        <title>Document</title>
       </head>
       <body></body>
 
