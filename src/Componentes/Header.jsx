@@ -65,7 +65,7 @@ const Menu = () => {
                     <a
                       className="linkstyle"
                       href="mailto:andrecosta8224@gmail.com"
-                      target="_blank"
+                      target="_blank" rel="noopener noreferrer"
                     >
                       {" "}
                       andrecosta8224@gmail.com
@@ -77,7 +77,7 @@ const Menu = () => {
                     <a
                       className="linkstyle"
                       href="https://api.whatsapp.com/send?phone=+5581992231554"
-                      target={"_blank"}
+                      target={"_blank"} rel="noopener noreferrer"
                     >
                       +55 81 992231554
                     </a>

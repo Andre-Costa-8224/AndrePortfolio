@@ -4,7 +4,7 @@ import Menu from "./Componentes/Header";
 import Principal from "./Componentes/Main";
 import Projetos from "./Componentes/Projects";
 import Sobre from "./Componentes/About";
-import Contato from "./Componentes/Contact";
+//import Contato from "./Componentes/Contact";
 import Rodape from "./Componentes/Footer";
 
 function App() {

@@ -1,4 +1,4 @@
-import Squad21 from "./Squad21.png"
+//import Squad21 from "./Squad21.png"
 
 const Projetos = () => {
   return (/*
