@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Eu from "./Eu.png";
 
 const Principal = () => {
@@ -9,7 +10,8 @@ const Principal = () => {
               <h1>Eu sou André</h1>
               <p>Desenvolvedor full-stack</p>
               <p>Habilidades com foco em | C# | Java | Javascript | React.JS | HTML e CSS |</p>
-              <button className="btn btn-primary">Sobre mim</button>
+              <Link to={"/sobre"}>
+              <button className="btn btn-primary">Sobre mim</button></Link>
             </article>
             <article>
               <img src={Eu} alt="" height={"400px"} className="AppImg"/>

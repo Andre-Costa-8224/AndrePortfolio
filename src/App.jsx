@@ -12,7 +12,6 @@ function App() {
     <BrowserRouter>
       <div className="imagem">
         <Menu/>
-        
         <Routes>
           <Route path="/" exact element={<Principal/>}/>
           <Route path="/projetos" element={<Projetos/>}/>
