@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -46,9 +46,9 @@ const Menu = () => {
           aria-hidden="true"
         >
           <div className="modal-dialog">
-            <div className="modal-content">
+            <div className="modal-content bgModal">
               <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">
+                <h5 className="modal-title" id="exampleModalLabel" style={{color: "orange"}}>
                   Contatos
                 </h5>
                 <button
@@ -59,7 +59,7 @@ const Menu = () => {
                 ></button>
               </div>
               <div className="modal-body">
-                <div style={{ marginLeft: "25%" }}>
+                <div className="modalLinks">
                   <div style={{ display: "flex", alignItems: "center" }}>
                     <i className="material-icons">email</i>
                     <a
@@ -67,7 +67,6 @@ const Menu = () => {
                       href="mailto:andrecosta8224@gmail.com"
                       target="_blank" rel="noopener noreferrer"
                     >
-                      {" "}
                       andrecosta8224@gmail.com
                     </a>
                   </div>
@@ -86,8 +85,8 @@ const Menu = () => {
                   <div style={{ display: "flex", alignItems: "center" }}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
+                      width="22"
+                      height="22"
                       fill="currentColor"
                       class="bi bi-linkedin"
                       viewBox="0 0 16 16"
@@ -108,8 +107,8 @@ const Menu = () => {
                   <div style={{ display: "flex", alignItems: "center" }}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
+                      width="22"
+                      height="22"
                       fill="currentColor"
                       class="bi bi-github"
                       viewBox="0 0 16 16"

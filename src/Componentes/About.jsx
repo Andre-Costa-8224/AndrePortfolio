@@ -2,12 +2,11 @@ import Eu2 from "./Eu2.png"
 
 const Sobre = () => {
     return(
-        <div class="separador">
-            <br />
+        <main class="separador">
             <br />
             <section className="about">
                 <article className="imgAbout">
-                    <img src={Eu2} alt="" height={"350px"} width={"330px"}/>
+                    <img className="Eu2" src={Eu2} alt="André"/>
                 </article>
                 <p style={{marginLeft: "10px"}} ></p>
                 <article className="bg-opaco">
@@ -17,7 +16,8 @@ const Sobre = () => {
                     <p>Ao terminar o ensino médio tive a oportunidade de ingressar na IFPE no curso técnico de Informática para internet e também a passar pelo processo seletivo da Recode PRO ciclo 2021/2022. Estou sempre aprendendo e me atualizando para estar ciente sobre as tecnologias atuais, sou comunicativo e trabalho bem em equipe.</p>
                 </article>
             </section>
-        </div>
+            </main>
+        
     )
 }
 
