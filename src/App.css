@@ -6,8 +6,18 @@
   border-radius: 40px;
 }
 
+.w-porcent{
+  width: 79%;
+  height: 330px;
+  margin: auto;
+}
+
 .separador{
   min-height: 100vh;
+}
+
+.pjsec{
+  width: 80%;
 }
 
 .linkstyle{
@@ -108,7 +118,7 @@ svg{
 }
 
 .App-projetos {
-  min-height: 100vh;
+  min-height: 120vh;
   display: flex;
   color: rgb(0, 0, 0);
   font-size: small;
@@ -227,6 +237,16 @@ svg{
   }
   .AppImg{
     animation: AppImg2 2s;
+  }
+  .pjsec{
+    width: 95%;
+  }
+}
+
+@media (max-width: 780px){
+  .pjsec{
+    width: 95%;
+    height: 320px;
   }
 }
 
