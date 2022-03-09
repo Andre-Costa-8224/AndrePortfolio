@@ -8,7 +8,7 @@ const Principal = () => {
         <section className="mainArts">
             <article className="transicao">
               <h1>Eu sou André</h1>
-              <p>Desenvolvedor full-stack</p>
+              <p>Desenvolvedor full-stack em formação</p>
               <p>Habilidades com foco em | C# | Java | Javascript | React.JS | HTML e CSS |</p>
               <Link to={"/sobre"}>
               <button className="btn btn-primary">Sobre mim</button></Link>
