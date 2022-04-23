@@ -11,9 +11,9 @@ const Sobre = () => {
                 <p style={{marginLeft: "10px"}} ></p>
                 <article className="bg-opaco">
                     <h1>Sobre mim</h1>
-                    <h4>Um aficionado da tecnologia.</h4><p>Sou estudante de Informática para internet e programação full-stack na Recode PRO, desde cedo sempre tive interesse em todo tipo de tecnologia com a qual pudesse interagir. Antes de entrar em qualquer curso procurava aprender de forma autodidata a programar, chegando adquirir grande conhecimento em python, o que me permitiu ter noções sobre a lógica da programação, mais tarde também fiz trabalho voluntário de web design na Rede Multilateral.
+                    <h4>Um aficionado da tecnologia.</h4><p>Sou estudante de Informática Para Internet no IFPE e formado em programação full-stack pela Recode PRO, desde cedo sempre tive interesse em todo tipo de tecnologia com a qual pudesse interagir. Antes de entrar em qualquer curso procurava aprender de forma autodidata a programar, chegando adquirir grande conhecimento em python, o que me permitiu ter noções sobre o mundo da programação, mais tarde também fiz trabalho voluntário de web design na Rede Multilateral contribuindo no design do site.
                     </p>
-                    <p>Ao terminar o ensino médio tive a oportunidade de ingressar na IFPE no curso técnico de Informática para internet e também a passar pelo processo seletivo da Recode PRO ciclo 2021/2022. Estou sempre aprendendo e me atualizando para estar ciente sobre as tecnologias atuais, sou comunicativo e trabalho bem em equipe.</p>
+                    <p>Fiz projetos utilizando spring boot, react.js e Asp.Net MVC tanto individualmente quanto em grupo, um deles com intuito de impacto social em prol dos <a href="squad21-front-react-js.vercel.app" target="_blank" rel="noopener noreferrer" className="linkblue">refugiados</a>. Estou sempre aprendendo e me atualizando para estar ciente sobre as tecnologias atuais, sou comunicativo e trabalho bem em equipe.</p>
                 </article>
             </section>
             </main>
