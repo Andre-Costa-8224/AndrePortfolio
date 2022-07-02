@@ -8,13 +8,13 @@ const Principal = () => {
         <section className="mainArts">
             <article className="transicao">
               <h1>Eu sou André</h1>
-              <p>Desenvolvedor full-stack com foco em back-end</p>
-              <p>Habilidades em | C# | Java | Spring Boot |Javascript | React.JS | HTML e CSS |</p>
+              <p>Desenvolvedor full-stack atualmente com foco em front-end</p>
+              <p>Habilidades em | C# | Java | Spring Boot | Javascript | React.JS | Node.js | HTML e CSS |</p>
               <Link to={"/sobre"}>
               <button className="btn btn-primary">Sobre mim</button></Link>
             </article>
             <article>
-              <img src={Eu} alt="" height={"400px"} className="AppImg"/>
+              <img src={Eu} alt="foto" height={"400px"} className="AppImg"/>
             </article>
         </section>
         </main>
